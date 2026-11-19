@@ -1,0 +1,128 @@
+* {
+    /* Сначала Винда, потом Мак, потом Андроид, потом стандарт */
+    font-family: "Segoe UI", Roboto, -apple-system, BlinkMacSystemFont, Arial, sans-serif !important;
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+  margin: 0;
+  background: #0b0f1a;
+  color: white;
+/* Путь к картинке */
+    background-image: url('bg.png'); 
+    
+    /* Чтобы картинка не размножалась плиткой */
+    background-repeat: no-repeat; 
+    
+    /* Чтобы картинка всегда растягивалась на весь экран */
+    background-size: cover; 
+    
+    /* Чтобы фон не уезжал при скролле */
+    background-attachment: fixed; 
+    
+    /* Центрируем картинку */
+    background-position: center; 
+}
+
+
+.container {
+    max-width:1000px;
+    margin:20px auto;
+    padding:10px;
+}
+
+.box {
+    background:#111827;
+    padding:15px;
+    border-radius:12px;
+    margin-bottom:20px;
+}
+
+.header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+}
+
+.btn {
+    background:#1f2937;
+    padding:8px 12px;
+    border-radius:8px;
+    color:white;
+    text-decoration:none;
+}
+
+.filters {
+    display:flex;
+    gap:10px;
+    margin-bottom:10px;
+}
+
+select, button {
+    background:#1f2937;
+    color:white;
+    border:none;
+    padding:8px 10px;
+    border-radius:8px;
+}
+
+/* portfolio */
+.portfolio-item {
+    display:grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    align-items:center;
+    padding:10px 0;
+    border-bottom:1px solid #222;
+    gap:10px;
+}
+.portfolio-header {
+    display:grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    color:#aaa;
+    font-weight:bold;
+    padding:8px 0;
+    border-bottom:1px solid #222;
+    margin-bottom:10px;
+}
+/* table */
+.table-header,
+.table-row {
+    display:flex;
+    gap:10px;
+    align-items:center;
+}
+
+.table-header {
+    color:#aaa;
+    border-bottom:1px solid #222;
+    padding:10px 0;
+}
+
+.table-row {
+    border-bottom:1px solid #222;
+    padding:10px 0;
+}
+.price {
+    color:#00ff99;
+    font-weight:bold;
+}
+.col { flex:1; }
+
+.center { text-align:center; }
+.right { text-align:right; }
+
+.buy { color:#00ff99; font-weight:bold; }
+.sell { color:#ff4d4d; font-weight:bold; }
+
+.usdt {
+    color:#00ff99;
+    font-weight:bold;
+}
+
+img {
+    width:18px;
+    height:18px;
+    object-fit:contain;
+}

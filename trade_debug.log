@@ -1,0 +1,108 @@
+2026-04-21 00:58:27 POST: Array
+(
+    [type] => buy
+    [coin] => ETHUSDT
+    [amount] => 100
+    [price] => 2320.7
+)
+
+
+2026-04-21 00:58:34 POST: Array
+(
+    [type] => buy
+    [coin] => ETHUSDT
+    [amount] => 1
+    [price] => 2320.71
+)
+
+
+2026-04-21 00:58:59 POST: Array
+(
+    [type] => sell
+    [coin] => BTCUSDT
+    [amount] => 1
+    [price] => 75984.27
+)
+
+
+2026-04-21 01:03:59 POST: Array
+(
+    [type] => buy
+    [coin] => BTCUSDT
+    [amount] => 1
+    [price] => 75836.08
+)
+
+
+2026-04-21 01:04:23 POST: Array
+(
+    [type] => buy
+    [coin] => BTCUSDT
+    [amount] => 1000000000
+    [price] => 75847.71
+)
+
+
+2026-04-21 01:04:30 POST: Array
+(
+    [type] => buy
+    [coin] => BTCUSDT
+    [amount] => 100000
+    [price] => 75852.29
+)
+
+
+2026-04-21 01:34:20 POST: Array
+(
+    [type] => sell
+    [coin] => BTCUSDT
+    [amount] => 2
+    [price] => 75703.22
+)
+
+
+2026-04-21 01:34:22 POST: Array
+(
+    [type] => sell
+    [coin] => BTCUSDT
+    [amount] => 2
+    [price] => 75703.21
+)
+
+
+2026-04-21 02:44:52 POST: Array
+(
+    [type] => buy
+    [coin] => BTCUSDT
+    [amount] => 10
+    [price] => 75919.5
+)
+
+
+2026-04-22 15:54:15 POST: Array
+(
+    [type] => buy
+    [coin] => BTCUSDT
+    [amount] => 1000000
+    [price] => 78756.08
+)
+
+
+2026-05-13 14:15:46 POST: Array
+(
+    [type] => buy
+    [coin] => BTCUSDT
+    [amount] => 1111111111111
+    [price] => 80537.04
+)
+
+
+2026-05-13 14:15:52 POST: Array
+(
+    [type] => sell
+    [coin] => BTCUSDT
+    [amount] => 1
+    [price] => 80537.04
+)
+
+
